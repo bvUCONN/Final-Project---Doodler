@@ -10,7 +10,7 @@
     "description": "A simple drawing program that lets you download your doodles.",
     "screenshots": [
         {
-          "src": "/images/test screenshot 1.png",
+          "src": "images/test screenshot 1.png",
           "type": "image/png",
           "sizes": "601x957",
           "form_factor": "wide"
