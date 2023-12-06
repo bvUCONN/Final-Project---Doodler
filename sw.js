@@ -5,9 +5,6 @@ const cacheEm = [
   "sketch.js",
   "script.js",
   "styles.css",
-  "/",
-  "https://cdn.jsdelivr.net/npm/p5@1.8.0/lib/p5.js",
-  "https://kit.fontawesome.com/df98c7d392.js",
 ];
 
 self.addEventListener("install", (event) => {
