@@ -4,7 +4,7 @@ const cacheEm = [
   "index.html",
   "sketch.js",
   "script.js",
-  "style.css",
+  "styles.css",
   "/",
   "https://cdn.jsdelivr.net/npm/p5@1.8.0/lib/p5.js",
   "https://kit.fontawesome.com/df98c7d392.js",
