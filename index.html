@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Doodler</title>
+    <script src="script.js"></script>
+    <link rel="apple-touch-icon" href="/icons/ios.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="app.webmanifest" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.8.0/lib/p5.js"></script>
+    <script
+      src="https://kit.fontawesome.com/df98c7d392.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li>
+          <label for="color">Color:</label>
+          <input type="color" id="color" />
+        </li>
+        <li>
+          <label for="weight">Stroke:</label>
+          <input type="number" id="weight" min="2" max="200" value="5" />
+        </li>
+        <li>
+          <button id="saveBtnImage">
+            <i class="fa fa-floppy-o" aria-hidden="true"></i>
+            <!--<i class="fa-solid fa-floppy-disk"></i>-->
+          </button>
+        </li>
+        <li>
+          <button id="clear">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
