@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.sidebar {
+.options {
   background-color: #cec8bb;
   box-shadow: 0px 0px 10px rgba(30, 30, 30, 0.7);
   color: #ffffff;
@@ -13,7 +13,7 @@
   z-index: 1000;
 }
 
-.sidebar ul {
+.options ul {
   display: flex;
   justify-content: left;
   align-items: flex-start;
@@ -24,17 +24,17 @@
   height: 100%;
 }
 
-.sidebar ul li {
+.options ul li {
   padding: 10px 20px;
 }
 
-.sidebar input,
-.sidebar button {
+.options input,
+.options button {
   text-align: center;
   width: 45px;
 }
 
-.sidebar button {
+.options button {
   background-color: transparent;
   border: none;
   font-size: 25px;
@@ -49,7 +49,7 @@
   color: #bd0000;
 }
 
-.sidebar label {
+.options label {
   display: block;
   font-size: 17px;
   margin-bottom: 3px;
