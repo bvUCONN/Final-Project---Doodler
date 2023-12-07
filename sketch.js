@@ -14,7 +14,19 @@ let currentPath = [];
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
-  background(255);
+
+const canvas = document.getElementById("defaultCanvas0");
+  const ctx = canvas.getContext("2d");
+  
+
+
+
+  var dataURL = localStorage.getItem("imgCanvas");
+  var img = new Image();
+  img.src = dataURL;
+  img.onload = function () {
+    ctx.drawImage(img, 0, 0, img.width * 0.5, img.height * 0.5);
+  };
 
   /* oldbrg = getItem("brgimage");
 
@@ -66,6 +78,7 @@ function draw() {
 function mousePressed() {
   currentPath = [];
   paths.push(currentPath);
+  localStorage.setItem("imgCanvas", canvas.toDataURL());
 }
 
 saveBtnImage.addEventListener("click", saveAsCanvas);
